@@ -1,0 +1,7 @@
+export const INJECTABLE_WATERMARK = 'lexis:injectable'
+export const CONTROLLER_WATERMARK = 'lexis:controller'
+export const CONTROLLER_PREFIX = 'lexis:controller_prefix'
+export const MODULE_METADATA = 'lexis:module_metadata'
+export const ROUTES_METADATA = 'lexis:routes'
+export const PARAMS_METADATA = 'lexis:params'
+export const CUSTOM_INJECT_TOKENS = 'lexis:custom_inject_tokens'

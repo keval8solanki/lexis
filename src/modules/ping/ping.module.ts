@@ -1,0 +1,11 @@
+import { Module } from '@core'
+
+import { PingController } from './ping.controller'
+import { PingService } from './ping.service'
+
+@Module({
+  controllers: [PingController],
+  providers: [PingService],
+  exports: [PingService],
+})
+export class PingModule { }
