@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import { pingRouter } from './modules/ping'
+import { pingRouter } from '@/ping'
 
 const app = new Hono()
 
